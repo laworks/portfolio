@@ -14,7 +14,7 @@ section {
   --Patua: "Patua One", cursive;
   --Lobster: "lobster", cursive;
   --light-black: #2e2c2caf;
-  --bggradient: linear-gradient(to bottom, #9F5F80, #583D72);
+  --bggradient: linear-gradient(to bottom, #CA8A8B, #E6C4C0);
   --light-gray: rgba(255, 255, 255, 0.877);
 }
 
@@ -64,7 +64,8 @@ header a {
   }
 
   header .row .col-md-5 img{
-      width: 90%
+      width: 120%;
+      height: 150%;
   }
 
   header .container .col-md-7 h6 {
@@ -91,6 +92,7 @@ header a {
 
   .section-1{
       padding:20vmin 0;
+      background-color: #FDF6F0;
   }
 
   .section-1 .row .col-md-6 .mine img{
@@ -107,7 +109,7 @@ header a {
       position: absolute;
       top: 7vmin;
       left: -18vmin;
-      background: white;
+      background: #F8E2CF;
       border-radius: 3px;
       text-align: left;
       padding: 13vmin 4vmin 20vmin 10vmin;
@@ -119,7 +121,7 @@ header a {
   .section-1 .row .col-md-6 .panel h1{
       font-weight: bold;
       padding: 0.4em 0;
-      font-size: 2em;
+      font-size: 5em;
   }
 
   .section-1 .row .col-md-6 .panel p{
@@ -132,7 +134,7 @@ header a {
   .cover {
       width: 100%;
       height: 55vmin;
-      background: url('./images used/bg2.jpg');
+      background: url('./images used/bgimg1.jpg');
       background-position: -25rem -19rem;
       background-size: 150%;
       position: relative;
@@ -162,7 +164,7 @@ header a {
       z-index: 1;
       background: white;
       width: 17rem;
-      height: 12rem;
+      height: 16rem;
       padding-top: 3.5vmin;
       margin: 1rem;
       border-radius: .5em;
@@ -210,7 +212,7 @@ header a {
       font-size: 2vmin;
   }
 
-  card .card-text{
+   .card-text{
       padding: 2.5rem 3rem;
       color: var(--light-black)
   }
@@ -236,7 +238,7 @@ header a {
 
 .section-3 .col-md-12 > h1 {
     padding: 2em 0 0.5em 0;
-    color: whitesmoke;
+    color: #000000;
     font-size: 6vmin;
   }
 
@@ -245,6 +247,7 @@ header a {
       padding-bottom: 2em;
       color: var(--light-gray);
       font-size: 3vmin;
+      font-family: var(--Rubik);
   }
 
   .section-3 .desktop {
